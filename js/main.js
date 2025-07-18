@@ -18,7 +18,7 @@ class LoveWebsite {
         // Mảng chứa các biểu tượng và từ ngữ xin lỗi
         this.hearts = ['❤️', '💕', '💖', '💗', '💘', '💝', '💞', '💓', '💗', '❣️'];
         this.loveWords = [
-            'cảm ơn Minh Ngọc',
+            'cảm ơn Phương Thảo',
             'cảm ơn bạn đã tặng quà cho mình'
         ];
         this.fallingImages = [
