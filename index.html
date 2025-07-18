@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TẶNG BẠN Á</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@400;600;700&family=Pacifico&family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>    <!-- Landing Page -->
+    <div class="landing-page" id="landingPage">
+        <img src="assets\images\avatar.gif" alt="Avatar" class="avatar">  
+        <h1 class="main-title">TẶNG BẠN</h1>
+        <p class="subtitle">CẢM ƠN BẠN ĐÃ TẶNG QUÀ CHO MÌNH</p>
+        <button class="start-button" id="startBtn">NHẤN ZÔ ĐÂY ĐII!</button>
+    </div>
+
+    <!-- Zoom Effect -->
+    <div class="zoom-container" id="zoomContainer">
+        <div class="zoom-image" id="zoomImage">
+            <div class="eye-highlight"></div>
+        </div>
+    </div>
+
+    <!-- Main Interface -->
+    <div class="main-interface" id="mainInterface">
+        <div class="border-light"></div>
+    </div>
+
+    <!-- Audio Controls -->
+    <div class="audio-controls">
+        <button class="audio-btn" id="musicBtn" title="Bật/Tắt nhạc">🎵</button>
+        <button class="audio-btn" id="volumeBtn" title="Âm lượng">🔊</button>
+    </div>
+    
+    <!-- Hidden Audio Element -->
+    <audio id="backgroundMusic" loop>
+        <source src="assets/audio/song.m4a" type="audio/mp4">
+        <source src="assets/audio/background-music.mp3" type="audio/mpeg">
+    </audio>
+    
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/interactions.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>
